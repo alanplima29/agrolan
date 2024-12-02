@@ -1,0 +1,18 @@
+{
+  "name": "agrolan",
+  "version": "1.0.0",
+  "description": "Este projeto tem como objetivo implementar progressivamente e de forma didática uma aplicação web de E-commerce para venda de peças para tratores e implementos agrícolas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
