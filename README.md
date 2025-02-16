@@ -57,7 +57,7 @@ O protótipo serviu como base para o desenvolvimento das telas, proporcionando u
 
 ## 🎨 Design das Telas - Figma
 
-🔗 [Link para o Figma](https://www.figma.com/file/a1VDbO1aNfZyulQPxT99OE/beleza-em-dia?node-id=3%3A80)
+🔗 [Link para o Figma](https://www.figma.com/design/CZUnngnbGKqtpuigz5PUPi/agrolan?node-id=17-2&p=f&t=J3dO3UXsvaTQ7VeT-0)
 
 ---
 
