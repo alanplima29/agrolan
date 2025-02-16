@@ -1,0 +1,32 @@
+@import url(../css/materialize.css);
+
+.principal {
+    background-image: url("https://res.cloudinary.com/dcflbxl2n/image/upload/v1739378826/freepik__the-style-is-candid-image-photography-with-natural__93127_rqgxs6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100vh;
+}
+
+.row.margin {
+    margin-left: 10px !important; /* Ajuste o valor conforme necessário */
+}
+
+#login .card-panel {
+    margin-left: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .card-panel, .mt-3, h3 {
+        font-size: 1.00em !important;
+    }
+
+    p {
+        font-size: 1.00rem !important;
+    }
+}

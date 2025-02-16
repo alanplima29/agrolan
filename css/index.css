@@ -1,0 +1,101 @@
+/* Importação do framework Materialize */
+@import url(../css/materialize.css);
+
+/* Estilos para telas menores que 768px */
+@media (max-width: 768px) {
+  .card-title, .mt-3, h3 {
+    font-size: 1em !important; /* Tamanho de fonte ajustado para dispositivos móveis */
+  }
+
+  p {
+    font-size: 1rem !important; /* Tamanho de fonte ajustado para parágrafos */
+  }
+}
+
+/*Footer feito com css puro para cumprir o requisito de usar algumas ferramentas essenciais nativas do css, como flex box por exemplo*/
+.modern-footer {
+  color: #fff; /* Cor do texto */
+  margin-top: 0;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1); /* Sombra para efeito de elevação */
+  background-color: #333; /* Cor de fundo do footer */
+  padding: 20px 0; /* Espaçamento interno */
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; 
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px; /* Largura mínima para evitar quebras indesejadas */
+  margin: 10px 20px;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #fff; /* Linha abaixo do título */
+  padding-bottom: 10px;
+  color: #fff; /* Garante que o título seja branco */
+}
+
+.footer-section p {
+  font-size: 0.9rem;
+  line-height: 1.6; /* Melhora a legibilidade do texto */
+  color: #ccc; /* Cor mais suave para o texto */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0; /* Remove o padding padrão */
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Transição suave para hover */
+}
+
+.footer-section ul li a:hover {
+  color: #1d7a6e; /* Cor ao passar o mouse */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1); /* Linha divisória */
+  font-size: 0.9rem;
+  color: #ccc; /* Cor mais suave para o texto */
+}
+
+/* Responsividade para telas menores que 768px */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin: 20px 0;
+    min-width: 100%; /* Garante que as seções ocupem a largura total */
+  }
+
+  .footer-section h3 {
+    font-size: 1.2rem; /* Reduz o tamanho do título para dispositivos móveis */
+  }
+
+  .footer-section p {
+    font-size: 0.8rem; /* Reduz o tamanho do texto para dispositivos móveis */
+  }
+}

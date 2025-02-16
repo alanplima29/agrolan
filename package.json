@@ -1,7 +1,7 @@
 {
   "name": "agrolan",
   "version": "1.0.0",
-  "description": "Este projeto tem como objetivo implementar progressivamente e de forma didática uma aplicação web de E-commerce para venda de peças para tratores e implementos agrícolas.",
+  "description": "Site com 03 telas simulando um E-commerce de vendas de peças para implementos agrícols.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

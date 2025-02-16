@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <title>Cadastro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Import Google Icon Font -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+
+    <!-- Import Font Awesome Icon Font -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="libraries/sass/materialize.css">  
+    <link rel="stylesheet" href="libraries/materialize/css/materialize.min.css">    
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="libraries/sass/index.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+</head>
+
+<body class="vertical-layout vertical-menu-collapsible page-header-dark vertical-modern-menu preload-transitions 1-column principal blank-page blank-page" data-open="click" data-menu="vertical-modern-menu" data-col="1-column">
+    <main>
+        <section>
+            <div class="row">
+                <div class="col s12">
+                    <div class="container">
+                        <div id="cadastro" class="row">
+                            <div class="col s12 m10 l8 z-depth-4 card-panel" style="opacity: 0.9">
+                                <form action="/cadastro" method="POST" class="formulario"> <!-- Adicione action e method -->
+                                    <div class="row center">
+                                        <div class="input-field col s12">
+                                            <h5 class="ml-4">Cadastro</h5>
+                                        </div>
+                                    </div>
+
+                                    <!-- Nome -->
+                                   
+                                    <div class="row margin">
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix pt-2">person_outline</i>
+                                            <input id="nome" class="validate" type="text" autofocus required pattern="[A-Za-z\s]+"/>
+                                            <label for="nome" class="center-align">Nome Completo</label>
+                                            <span class="helper-text" data-error="Insira um nome válido (apenas letras e espaços)."></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- CPF -->
+                                    <div class="row margin margincadastro">
+                                        <div class="input-field col s12">
+                                            <i class="prefix pt-2 material-symbols-outlined">id_card</i>
+                                            <input id="cpf" class="validate" type="text" required pattern="^\d{11}$"/>
+                                            <label for="cpf" class="center-align">CPF</label>
+                                            <span class="helper-text" data-error="CPF Inválido (Use somente números)"></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- CEP -->
+                                    <div class="row margin margincadastro">
+                                        <div class="input-field col s6">
+                                            <i class="prefix pt-2 material-symbols-outlined">pin_drop</i>
+                                            <input id="cep" class="validate" type="text" required pattern="^\d{8}$"/>
+                                            <label for="cep" class="center-align">CEP</label>
+                                            <span class="helper-text" data-error="CEP Inválido (use somente números, sem traços)."></span>
+                                        </div>
+
+                                        <!-- Cidade -->
+                                        <div class="input-field col s6">
+                                            <i class="prefix pt-2 material-icons">location_city</i>
+                                            <input id="cidade" class="validate" type="text" required pattern="[A-Za-z\s]+"/>
+                                            <label for="cidade" class="center-align">Cidade</label>
+                                            <span class="helper-text" data-error="Dados Incorretos"></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Rua e Número -->
+                                    <div class="row margin">
+                                        <div class="input-field col s8">
+                                            <i class="prefix pt-2 material-symbols-outlined">location_on</i>
+                                            <input id="rua" class="validate" type="text" required pattern="[A-Za-z\s]+"/>
+                                            <label for="rua" class="center-align">Rua</label>
+                                            <span class="helper-text" data-error="Dados Incorretos"></span>
+                                        </div>
+                                        <div class="input-field col s4">
+                                            <input id="numero" class="validate" type="text" required pattern="^\d+$"/>
+                                            <label for="numero" class="center-align">Nº</label>
+                                            <span class="helper-text" data-error="Dados Incorretos"></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- E-mail -->
+                                    <div class="row margin">
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix pt-2">email</i>
+                                            <input id="email" type="email" class="validate" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"/>
+                                            <label for="email">E-mail</label>
+                                            <span class="helper-text" data-error="Email Inválido"></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Telefone -->
+                                    <div class="row margin margincadastro">
+                                        <div class="input-field col s12">
+                                            <i class="prefix pt-2 material-symbols-outlined">phone</i>
+                                            <input id="fone" class="validate" type="text" required pattern="^\d{11}$"/>
+                                            <label for="fone" class="center-align">Telefone</label>
+                                            <span class="helper-text" data-error="Telefone Inválido (use somente números)."></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Senha -->
+                                    <div class="row margin">
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix pt-2">lock_outline</i>
+                                            <input id="senha" type="password" required class="validate" pattern="^(?=.*[A-Za-z])(?=.*\d).{8,}$"/>
+                                            <label for="senha">Senha</label>
+                                            <span class="helper-text" data-error="Senha: Mínimo de 8 caracteres, com 1 letra maiúscula, 1 número e 1 caractere especial."></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Confirmar Senha -->
+                                    <div class="row margin center">
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix pt-2">lock_outline</i>
+                                            <input id="confirmar-senha" type="password"/>
+                                            <label for="confirmar-senha">Confirmar Senha</label>
+                                            <span id="mensagem-senha" class="helper-text"></span>
+                                        </div>
+                                    </div>
+                             
+                                    <!-- Gênero -->
+                                    <div class="row margin center">
+                                        <div class="input-field">                                            
+                                                <div class="col l8 m8 s9">
+                                                    <label>
+                                                        <input name="group1" type="radio" checked />
+                                                        <span>Masculino</span>
+                                                    </label>
+                                                </div>
+                                                <div class="col l3 m3 s3">
+                                                    <label>
+                                                        <input name="group1" type="radio"/>
+                                                        <span>Feminino</span>
+                                                    </label>
+                                                </div>                                             
+                                        </div>
+                                    </div>
+
+                                    <!-- Marcas -->
+                                    <div class="row margin" style="padding-top: 3vh;">
+                                        <p class="center">Possui Implementos de quais marcas?</p>
+                                        <div class="input-field col s12">
+                                          
+                                                <div class="col s12 m6 l3">
+                                                    <label>
+                                                        <input type="checkbox" class="filled-in" checked="checked"/>
+                                                        <span>Jumil</span>
+                                                    </label>
+                                                </div>
+                                                <div class="col s12 m6 l3">
+                                                    <label>
+                                                        <input type="checkbox" class="filled-in"/>
+                                                        <span>Tatu</span>
+                                                    </label>
+                                                </div>
+                                                <div class="col s12 m6 l3">
+                                                    <label>
+                                                        <input type="checkbox" class="filled-in"/>
+                                                        <span>Yanmar</span>
+                                                    </label>
+                                                </div>
+                                                <div class="col s12 m6 l3">
+                                                    <label>
+                                                        <input type="checkbox" class="filled-in"/>
+                                                        <span>Nenhuma</span>
+                                                    </label>
+                                                </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <!-- Botão Confirmar -->
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <button type="submit" class="btn waves-effect waves-light border-round green darken-2 col s12">Cadastrar</button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Atalhos -->
+                                    <div class="row center">
+                                        <div class="input-field col s4 m4 l4">
+                                            <a href="login.html" class="material-icons green-text lighten-1">person_outline</a>
+                                        </div>
+                                        <div class="input-field col s4 m4 l4">
+                                            <a href="" class="material-icons green-text lighten-1">lock_open</a>
+                                        </div>
+                                        <div class="input-field col s4 m4 l4">
+                                            <a href="index.html" class="material-icons green-text lighten-1">home</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="libraries/jquery/jquery-3.7.1.min.js"></script>
+    <script src="libraries/materialize/js/materialize.js"></script>
+    <script src="js/script.js"></script>
+    <script src="libraries/jquery/jQuery-Mask-Plugin-master/dist/jquery.mask.js"></script>
+    <script src="libraries/jquery/jQuery-Mask-Plugin-master/dist/jquery.mask.min.js"></script>
+</body>
+</html>
