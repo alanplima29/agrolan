@@ -69,7 +69,9 @@ O protótipo serviu como base para o desenvolvimento das telas, proporcionando u
 
 ## 🌐 Site em Produção - GitHub Pages
 
-🔗 [Link para o GitHub Pages](https://utfpr-gp.github.io/alanplima29/agrolan)
+🔗 [Link para visualizar o projeto](https://alanplima29.github.io/agrolan/)
+
+Para visualizar o projeto, clique no link acima e utilize os botões "Home", "Cadastro" e "Login" para navegar entre as três páginas desenvolvidas ao longo do projeto.
 
 ---
 
