@@ -67,7 +67,7 @@ O protótipo serviu como base para o desenvolvimento das telas, proporcionando u
 
 ---
 
-## 🌐 Site em Produção - GitHub Pages
+## 🌐 Link para o GitHub Pages
 
 🔗 [Link para visualizar o projeto](https://alanplima29.github.io/agrolan/)
 
