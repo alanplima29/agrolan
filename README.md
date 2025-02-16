@@ -4,9 +4,27 @@
 
 ### 👨‍💻 Autor: Alan Pereira de Lima
 
-Este projeto tem como objetivo implementar progressivamente e de forma didática uma aplicação web de E-commerce para venda de peças para tratores e implementos agrícolas.
+Descrição do Projeto
+Este projeto consiste na implementação de uma loja virtual especializada em peças para implementos agrícolas, desenvolvida com as tecnologias: HTML, CSS e JavaScript. Para garantir uma estrutura moderna e responsiva, foi utilizado o framework Materialize.
 
-O frontend da aplicação será desenvolvida com **HTML**, **CSS** e **JavaScript** e o backend será simulado pela implementação de uma **API Fake**, usando o **JSON Server**.
+O projeto contempla a criação de três telas principais, que são:
+
+Tela de Login: Onde o usuário pode acessar sua conta com e-mail e senha.
+
+Tela de Cadastro: Permite que novos usuários se registrem no sistema.
+
+Home: Página inicial com destaque para as peças agrícolas mais vendidas, simulando uma vitrine virtual de produtos.
+
+Para garantir a qualidade e a funcionalidade do site, foi cumprida uma lista de requisitos que orientou o desenvolvimento. Entre os principais requisitos, destacam-se:
+
+Responsividade: O site foi desenvolvido para se adaptar a diferentes tamanhos de tela, como dispositivos móveis, tablets e desktops, garantindo uma experiência de usuário consistente.
+
+Validações de Formulário: Foram implementadas validações no lado do cliente utilizando recursos nativos do HTML, como a API de validação de formulários, e expressões regulares (REGEX) para garantir a integridade dos dados inseridos pelos usuários.
+
+Prototipação e Design
+Antes de iniciar o desenvolvimento, foi realizada uma etapa de prototipação utilizando a ferramenta Figma. Essa etapa foi crucial para definir a estrutura visual do site, incluindo a disposição dos elementos, as cores, a tipografia e a experiência do usuário. O protótipo serviu como base para o desenvolvimento das telas, garantindo que o produto final estivesse alinhado com as expectativas iniciais.
+
+O frontend da aplicação foi desenvolvido com **HTML**, **CSS** e **JavaScript** e o backend será simulado pela implementação de uma **API Fake**, usando o **JSON Server**.
 
 ---
 
@@ -30,7 +48,7 @@ O frontend da aplicação será desenvolvida com **HTML**, **CSS** e **JavaScrip
 
 ## 🛠️ Framework CSS
 
-**Materialize Web**
+**Materialize Css**
 
 ---
 
