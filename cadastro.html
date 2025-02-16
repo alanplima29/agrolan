@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Import Google Icon Font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
 
     <!-- Import Font Awesome Icon Font -->
@@ -53,7 +54,7 @@
                                     <div class="row margin margincadastro">
                                         <div class="input-field col s12">
                                             <i class="prefix pt-2 material-symbols-outlined">id_card</i>
-                                            <input id="cpf" class="validate" type="text" required pattern="^\d{11}$"/>
+                                            <input id="cpf" class="validate" type="text" required pattern="^\d{3}\.\d{3}\.\d{3}-\d{2}$|^\d{11}$"/>
                                             <label for="cpf" class="center-align">CPF</label>
                                             <span class="helper-text" data-error="CPF Inválido (Use somente números)"></span>
                                         </div>
@@ -63,7 +64,7 @@
                                     <div class="row margin margincadastro">
                                         <div class="input-field col s6">
                                             <i class="prefix pt-2 material-symbols-outlined">pin_drop</i>
-                                            <input id="cep" class="validate" type="text" required pattern="^\d{8}$"/>
+                                            <input id="cep" class="validate" type="text" required pattern="^\d{5}-?\d{3}$"/>
                                             <label for="cep" class="center-align">CEP</label>
                                             <span class="helper-text" data-error="CEP Inválido (use somente números, sem traços)."></span>
                                         </div>
@@ -106,7 +107,7 @@
                                     <div class="row margin margincadastro">
                                         <div class="input-field col s12">
                                             <i class="prefix pt-2 material-symbols-outlined">phone</i>
-                                            <input id="fone" class="validate" type="text" required pattern="^\d{11}$"/>
+                                            <input id="fone" class="validate" type="text" required pattern="^\(?\d{2}\)?\s?\d{4,5}-?\d{4}$"/>
                                             <label for="fone" class="center-align">Telefone</label>
                                             <span class="helper-text" data-error="Telefone Inválido (use somente números)."></span>
                                         </div>
