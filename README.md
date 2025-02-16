@@ -53,9 +53,6 @@ O protótipo serviu como base para o desenvolvimento das telas, proporcionando u
 
 ---
 
-
-O frontend da aplicação foi desenvolvido com **HTML**, **CSS** e **JavaScript** e o backend será simulado pela implementação de uma **API Fake**, usando o **JSON Server**.
-
 ---
 
 ## 🎨 Design das Telas - Figma
