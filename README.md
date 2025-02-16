@@ -1,28 +1,49 @@
-# agrolan - loja virtual para peças e implementos agrícolas
-### Autor: Alan Pereira de Lima
+<div style="background-color: #f8f9fa; padding: 20px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+
+# 🌾 Agrolan - Loja Virtual para Peças e Implementos Agrícolas
+
+### 👨‍💻 Autor: Alan Pereira de Lima
+
 Este projeto tem como objetivo implementar progressivamente e de forma didática uma aplicação web de E-commerce para venda de peças para tratores e implementos agrícolas.
 
-O frontend da aplicação será desenvolvida com HTML, CSS e JavaScript e o backend será simulado pela implementação de uma API Fake, usando o JSON Server.
+O frontend da aplicação será desenvolvida com **HTML**, **CSS** e **JavaScript** e o backend será simulado pela implementação de uma **API Fake**, usando o **JSON Server**.
 
-## Design das Telas - Figma: 
-[https://www.figma.com/file/a1VDbO1aNfZyulQPxT99OE/beleza-em-dia?node-id=3%3A80](https://www.figma.com/design/CZUnngnbGKqtpuigz5PUPi/agrolan?node-id=0-1&node-type=canvas&t=y6bODmFjaKCj9oNJ-0)
+---
 
-## Design System: 
-https://www.figma.com/design/CZUnngnbGKqtpuigz5PUPi/agrolan?node-id=0-1&node-type=canvas&t=y6bODmFjaKCj9oNJ-0
+## 🎨 Design das Telas - Figma
 
-## Site em Produção - GitHub Pages
-https://utfpr-gp.github.io/alanplima29/agrolan
+🔗 [Link para o Figma](https://www.figma.com/file/a1VDbO1aNfZyulQPxT99OE/beleza-em-dia?node-id=3%3A80)
 
-## Framework CSS
-**Materializeweb**
+---
 
-## Dependências JavaScript
+## 🖌️ Design System
+
+🔗 [Link para o Design System no Figma](https://www.figma.com/design/CZUnngnbGKqtpuigz5PUPi/agrolan?node-id=0-1&node-type=canvas&t=y6bODmFjaKCj9oNJ-0)
+
+---
+
+## 🌐 Site em Produção - GitHub Pages
+
+🔗 [Link para o GitHub Pages](https://utfpr-gp.github.io/alanplima29/agrolan)
+
+---
+
+## 🛠️ Framework CSS
+
+**Materialize Web**
+
+---
+
+## 📦 Dependências JavaScript
+
 - **JQuery** - Para realizar animações.
 - **JSON Server** - Para simular uma API Rest.
 
-# Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
+---
 
-## RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos
+## 📋 Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
+
+### 📌 RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos
 
 | Status | ID  | Descrição |
 |--------|-----|-----------|
@@ -39,7 +60,7 @@ https://utfpr-gp.github.io/alanplima29/agrolan
 
 ---
 
-## RA2 - Realizar tratamento de formulários e aplicar validações customizadas no lado cliente, utilizando a API do HTML e expressões regulares (REGEX)
+### 📌 RA2 - Realizar tratamento de formulários e aplicar validações customizadas no lado cliente, utilizando a API do HTML e expressões regulares (REGEX)
 
 | Status | ID  | Descrição |
 |--------|-----|-----------|
@@ -50,7 +71,7 @@ https://utfpr-gp.github.io/alanplima29/agrolan
 
 ---
 
-## RA3 - Aplicar ferramentas para otimização do processo de desenvolvimento web, incluindo Node.js, NPM e linters para garantir a qualidade do código, juntamento com boas práticas de versionamento e organização de projetos
+### 📌 RA3 - Aplicar ferramentas para otimização do processo de desenvolvimento web, incluindo Node.js, NPM e linters para garantir a qualidade do código, juntamento com boas práticas de versionamento e organização de projetos
 
 | Status | ID  | Descrição |
 |--------|-----|-----------|
@@ -63,7 +84,7 @@ https://utfpr-gp.github.io/alanplima29/agrolan
 
 ---
 
-## RA4 - Aplicar bibliotecas de funções e componentes em JavaScript para aprimorar a interatividade de páginas web
+### 📌 RA4 - Aplicar bibliotecas de funções e componentes em JavaScript para aprimorar a interatividade de páginas web
 
 | Status | ID  | Descrição |
 |--------|-----|-----------|
@@ -74,7 +95,7 @@ https://utfpr-gp.github.io/alanplima29/agrolan
 
 ---
 
-## RA5 - Efetuar requisições assíncronas para uma API fake e APIs públicas, permitindo a obtenção e manipulação de dados dinamicamente
+### 📌 RA5 - Efetuar requisições assíncronas para uma API fake e APIs públicas, permitindo a obtenção e manipulação de dados dinamicamente
 
 | Status | ID  | Descrição |
 |--------|-----|-----------|
@@ -89,5 +110,3 @@ https://utfpr-gp.github.io/alanplima29/agrolan
 1. **Clonar o repositório**  
    ```bash
    git clone <URL_DO_REPOSITÓRIO>
-
-## Telas da aplicação
