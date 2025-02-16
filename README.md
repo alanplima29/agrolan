@@ -18,15 +18,15 @@ O projeto contempla a criação de **três telas principais**, que são:
 
 ### 1. **Tela de Login**
 - Permite que o usuário acesse sua conta com e-mail e senha.
-- Inclui validações para garantir que os campos sejam preenchidos corretamente.
+
 
 ### 2. **Tela de Cadastro**
 - Oferece ao usuário a possibilidade de criar uma nova conta.
-- Contém validações robustas para garantir a qualidade dos dados inseridos.
+
 
 ### 3. **Home**
 - Página inicial com destaque para as peças agrícolas mais vendidas, simulando uma vitrine virtual de produtos.
-- Design intuitivo e organizado para facilitar a navegação do usuário.
+
 
 ---
 
