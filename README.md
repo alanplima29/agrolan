@@ -4,25 +4,55 @@
 
 ### 👨‍💻 Autor: Alan Pereira de Lima
 
-Descrição do Projeto
-Este projeto consiste na implementação de uma loja virtual especializada em peças para implementos agrícolas, desenvolvida com as tecnologias: HTML, CSS e JavaScript. Para garantir uma estrutura moderna e responsiva, foi utilizado o framework Materialize.
+<div style="background-color: #f8f9fa; padding: 20px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
 
-O projeto contempla a criação de três telas principais, que são:
+# Descrição do Projeto
 
-Tela de Login: Onde o usuário pode acessar sua conta com e-mail e senha.
+Este projeto consiste na implementação de uma **loja virtual especializada em peças para implementos agrícolas**, desenvolvida com as tecnologias fundamentais para o desenvolvimento web: **HTML**, **CSS** e **JavaScript**. Para garantir uma estrutura moderna e responsiva, foi utilizado o **framework Materialize**, que oferece componentes pré-estilizados e facilita a criação de layouts adaptáveis a diferentes dispositivos.
 
-Tela de Cadastro: Permite que novos usuários se registrem no sistema.
+---
 
-Home: Página inicial com destaque para as peças agrícolas mais vendidas, simulando uma vitrine virtual de produtos.
+## 🖥️ Telas Principais
 
-Para garantir a qualidade e a funcionalidade do site, foi cumprida uma lista de requisitos que orientou o desenvolvimento. Entre os principais requisitos, destacam-se:
+O projeto contempla a criação de **três telas principais**, que são:
 
-Responsividade: O site foi desenvolvido para se adaptar a diferentes tamanhos de tela, como dispositivos móveis, tablets e desktops, garantindo uma experiência de usuário consistente.
+### 1. **Tela de Login**
+- Permite que o usuário acesse sua conta com e-mail e senha.
+- Inclui validações para garantir que os campos sejam preenchidos corretamente.
 
-Validações de Formulário: Foram implementadas validações no lado do cliente utilizando recursos nativos do HTML, como a API de validação de formulários, e expressões regulares (REGEX) para garantir a integridade dos dados inseridos pelos usuários.
+### 2. **Tela de Cadastro**
+- Oferece ao usuário a possibilidade de criar uma nova conta.
+- Contém validações robustas para garantir a qualidade dos dados inseridos.
 
-Prototipação e Design
-Antes de iniciar o desenvolvimento, foi realizada uma etapa de prototipação utilizando a ferramenta Figma. Essa etapa foi crucial para definir a estrutura visual do site, incluindo a disposição dos elementos, as cores, a tipografia e a experiência do usuário. O protótipo serviu como base para o desenvolvimento das telas, garantindo que o produto final estivesse alinhado com as expectativas iniciais.
+### 3. **Home**
+- Página inicial com destaque para as peças agrícolas mais vendidas, simulando uma vitrine virtual de produtos.
+- Design intuitivo e organizado para facilitar a navegação do usuário.
+
+---
+
+## 🎨 Prototipação e Design
+
+Antes de iniciar o desenvolvimento, foi realizada uma **etapa de prototipação** utilizando a ferramenta **Figma**. Essa etapa foi crucial para:
+
+- Definir a **estrutura visual** do site, incluindo a disposição dos elementos.
+- Escolher as **cores**, **tipografia** e **espaçamento** que compõem o design system.
+- Garantir que o produto final estivesse alinhado com as expectativas iniciais.
+
+O protótipo serviu como base para o desenvolvimento das telas, proporcionando uma **experiência de usuário** consistente e agradável.
+
+---
+
+## 🛠️ Ferramentas e Tecnologias Utilizadas
+
+- **Frontend**:
+  - **HTML**, **CSS** e **JavaScript** para a estrutura, estilização e interatividade das páginas.
+  - **Materialize** para componentes pré-estilizados e responsividade.
+
+- **Design e Prototipação**:
+  - **Figma** para a criação do protótipo das telas e definição do design system.
+
+---
+
 
 O frontend da aplicação foi desenvolvido com **HTML**, **CSS** e **JavaScript** e o backend será simulado pela implementação de uma **API Fake**, usando o **JSON Server**.
 
